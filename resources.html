@@ -1,1 +1,11 @@
 <p> "You have clicked the button" <p>
+
+<form method = "POST">
+  intput type="submit" name="anything" value = "HOME"/>
+</form>
+<?php
+if(isset($_POST['anything'])){
+header("location:index.html");
+exit;
+}
+?>
