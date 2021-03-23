@@ -1,6 +1,6 @@
 <!-----Main Page--------->
+<html>
 <body style="background-color:#4E2683;">
-</body>
 
 <style>
 input[type=submit]{
@@ -15,33 +15,72 @@ font-size: 16px;
 margin: 4px 2px;
 cursor: pointer;
 float: left;
+
 }
   
 div.a{
   position: relative;
-  top: 30%;
-  left: 20%;
-  margin-top: -50px;
-  width: 1000px;
-  height: 500px;
+  margin-left:auto;
+  margin-right:auto;
+  top: 5%;
+  width: 80%;
+
   }
   div.b{
     position: relative;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:40%;
-    top: 15%;
-    left: 12.5%
+    margin-left:auto;
+    margin-right:auto;
+    top: 10%; 
+    padding:20px;   
   }
+
+div.header{
+  position:relative;
+  background-color:#4E2683;
+  float:left;
+  width:100%;
+  height:30%;
+  padding-bottom:20px;
+}
+h1{
+  color:white;
+  text-align:center;
+  font-family:"Helvetica";
+}
+p{
+    color:white;
+  text-align:center;
+  font-family:"Helvetica";
+}
+
+img.image{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    border: 3px solid #25134d;
+}
+
+div.bod{
+  position:relative;
+  float:left;
+  width:100%;
+  height:auto;
+  background-color:#25134d;
+  padding-bottom:16px;
+}
+
 </style>
 
+<div class="header">
 <div class="b">
-<img src="logo.png" alt="Wisc logo">
+<img src="logo.png" class="image" alt="Wisc logo">
+</div>
+<h1>Welcome to the WISc Website!</h1>
+<p>Below are some useful articles to help you learn more about starting univeristy and surviving WISc.</p>
 </div>
 
-
-
+<div class="bod">
 <div class="a">
 <form action="studySpots.html" method="GET">
   <input type="submit" name="submit" value="Best Study Spots">
@@ -144,3 +183,11 @@ div.a{
   <input type="submit" name="submit" value="Ali's Financial Management">
 </form>   
 </div>
+</div>
+
+
+</body>
+
+
+
+</html>
