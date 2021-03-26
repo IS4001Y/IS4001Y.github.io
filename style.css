@@ -108,3 +108,24 @@
 	width: 70%;
 	
 }
+
+.info {
+	width:75%;
+	position:relative;
+}
+
+.info p {
+	margin:0;
+}
+
+.gradpic {
+	width:25%;
+	position:relative;
+
+}
+
+.grad {
+	width:100%;
+	padding-top:1%;
+}
+
