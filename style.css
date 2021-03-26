@@ -104,6 +104,7 @@
 
 .imgBud {
 	position:relative;
-	width: 100%;
+	float:center;
+	width: 70%;
 	
 }
