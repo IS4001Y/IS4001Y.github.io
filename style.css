@@ -103,6 +103,8 @@
 }
 
 .imgBud {
-height: 80%;
-width: 80%;
+	position:relative;
+	height: 80%;
+	width: 80%;
+	
 }
